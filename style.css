@@ -1,0 +1,255 @@
+.hml {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Poppins;
+}
+
+.about {
+    margin-top: 40px;
+    width: 80%;
+    padding: 140px;
+}
+
+.about__link {
+    color: #0593FB;
+}
+
+.about__header {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 56px;
+}
+
+.mail {
+    display: block;
+    color: #0593FB;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.mail::after {
+    content: "";
+    display: block;
+    background: #0593FB;
+    margin-top: 10px;
+    width: 280px;
+    height: 2px;
+}
+
+.about__paragraph {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.about__photo {
+    width: 120px;
+    border-radius: 50%;
+    border: 5px solid rgb(190, 190, 190);
+    padding: 2px;
+    margin-bottom: 30px;
+}
+
+.page {
+    background: #171F3F;
+}
+
+.main {
+    background: rgb(233, 233, 233);
+    margin: 20px;
+}
+
+.article__description {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.article__heading {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.footer {
+    padding: 40px 140px;
+  
+}
+
+.footer__description {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 36px;
+    color: white;
+}
+
+.footer__image{
+    margin-right: 5px;
+}
+
+.footer__heading {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: white;
+}
+
+.footer__heading:before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: rgb(0, 140, 255);
+}
+
+.footer__link{
+    color: #0593FB;
+    text-decoration: none;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.footer__link:nth-child(1)::after{
+    content: "";
+    display: block;
+    background: #CBD2D9;
+    border-radius: 10px;
+    height: 30px;
+    width: 2px;
+    margin-left: 12px;
+}
+
+.list__item {
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.projects {
+    margin-top: 60px;
+    background: #F5F7FA;
+    padding: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.projects__article {
+    width: 580px;
+    height: 300px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 16px rgba(24, 41, 67, 0.09);
+    border-radius: 8px;
+    padding: 50px 0 0 30px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.article__footer {
+    background: #F5F7FA;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.projects__heading {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.projects__paragraph {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.skills {
+    margin-top: 140px;
+}
+
+.skills__section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.skills__heading {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.skills-section__heading {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+ul {
+    width: 20vw;
+    height: 130px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.skills__heading::after {
+    content: "";
+    display: block;
+    width: 80vw;
+    height: 3px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background: rgb(218, 218, 218);
+}
+
+.skills-section__heading:before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.skills-section__heading--green:before {
+    background: green;
+}
+
+.skills-section__heading--blue:before {
+    background: blue;
+}
+
+.skills-section__heading--purple:before {
+    background: purple;
+}
+
+.skills-section__list--blue {
+    list-style-image: url(./assets/check-circle--blue.png);
+}
+
+.skills-section__list--purple {
+    list-style-image: url(./assets/check-circle--purple.png);
+}
+
+.skills-section__list--green {
+    list-style-image: url(./assets/check-circle--green.png);
+}
+
+.skills-section__list {}
