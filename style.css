@@ -270,12 +270,30 @@ body {
     }
     .article__description {
         margin-bottom: 50px;
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .article__heading {
+        font-size: 16px;
+        line-height: 24px;
     }
     .footer {
         padding: 60px 20px;
     }
+    .footer__heading {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .footer__description {
+        font-size: 14px;
+        line-height: 26px;
+    }
     .main {
         border: 0px;
+    }
+    .mail {
+        font-size: 14px;
+        line-height: 24px;
     }
     .projects {
         display: block;
@@ -286,9 +304,30 @@ body {
         width: 100%;
         padding: 10px;
     }
+    .projects__heading {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .projects__paragraph {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .skills__heading {
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+    }
+    .skills-section__heading {
+        font-size: 22px;
+        line-height: 32px;
+    }
     .skills-section__list {
         display: block;
         height: auto;
+    }
+    .list__item {
+        font-size: 14px;
+        line-height: 36px;
     }
     .skills__section {
         display: block;
