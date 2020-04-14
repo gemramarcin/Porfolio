@@ -59,8 +59,6 @@ body {
     height: 2px;
 }
 
-
-
 .page {
     background: #171F3F;
 }
@@ -259,42 +257,36 @@ body {
 }
 
 @media (max-width: 640px) {
-
-    .about{
+    .about {
         width: 90%;
     }
-
-    .article__description{
-        margin-bottom: 40px;
+    .about__header {
+        font-size: 26px;
+        line-height: 36px;
     }
-
+    .article__description {
+        margin-bottom: 50px;
+    }
     .footer {
         padding: 60px 20px;
     }
-
-    .main{
+    .main {
         border: 0px;
     }
-
-    .projects{
+    .projects {
         display: block;
         padding: 20px;
     }
-
-    .projects__article{
+    .projects__article {
         height: auto;
         width: 100%;
         padding: 10px;
     }
-
     .skills-section__list {
         display: block;
         height: auto;
-      
     }
-
-    .skills__section{
+    .skills__section {
         display: block;
     }
-
 }
