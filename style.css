@@ -264,6 +264,10 @@ body {
         font-size: 26px;
         line-height: 36px;
     }
+    .about__paragraph {
+        font-size: 14px;
+        line-height: 26px;
+    }
     .article__description {
         margin-bottom: 50px;
     }
