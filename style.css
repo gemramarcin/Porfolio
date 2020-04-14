@@ -27,6 +27,20 @@ body {
     line-height: 56px;
 }
 
+.about__paragraph {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.about__photo {
+    width: 120px;
+    border-radius: 50%;
+    border: 5px solid rgb(190, 190, 190);
+    padding: 2px;
+    margin-bottom: 30px;
+}
+
 .mail {
     display: block;
     color: #0593FB;
@@ -45,19 +59,7 @@ body {
     height: 2px;
 }
 
-.about__paragraph {
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 36px;
-}
 
-.about__photo {
-    width: 120px;
-    border-radius: 50%;
-    border: 5px solid rgb(190, 190, 190);
-    padding: 2px;
-    margin-bottom: 30px;
-}
 
 .page {
     background: #171F3F;
@@ -65,8 +67,7 @@ body {
 
 .main {
     background: rgb(233, 233, 233);
-    margin: 20px;
-    border: 16px #171F3F;
+    border: 16px solid #171F3F;
 }
 
 .article__description {
@@ -83,7 +84,6 @@ body {
 
 .footer {
     padding: 40px 140px;
-  
 }
 
 .footer__description {
@@ -93,7 +93,7 @@ body {
     color: white;
 }
 
-.footer__image{
+.footer__image {
     margin-right: 5px;
 }
 
@@ -114,7 +114,7 @@ body {
     background: rgb(0, 140, 255);
 }
 
-.footer__link{
+.footer__link {
     color: #0593FB;
     text-decoration: none;
     margin-right: 20px;
@@ -122,7 +122,7 @@ body {
     align-items: center;
 }
 
-.footer__link:nth-child(1)::after{
+.footer__link:nth-child(1)::after {
     content: "";
     display: block;
     background: #CBD2D9;
@@ -207,7 +207,7 @@ body {
     line-height: 44px;
 }
 
-ul {
+.skills-section__list {
     width: 20vw;
     height: 130px;
     display: flex;
@@ -258,4 +258,43 @@ ul {
     list-style-image: url(./assets/check-circle--green.png);
 }
 
-.skills-section__list {}
+@media (max-width: 640px) {
+
+    .about{
+        width: 90%;
+    }
+
+    .article__description{
+        margin-bottom: 40px;
+    }
+
+    .footer {
+        padding: 60px 20px;
+    }
+
+    .main{
+        border: 0px;
+    }
+
+    .projects{
+        display: block;
+        padding: 20px;
+    }
+
+    .projects__article{
+        height: auto;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .skills-section__list {
+        display: block;
+        height: auto;
+      
+    }
+
+    .skills__section{
+        display: block;
+    }
+
+}
